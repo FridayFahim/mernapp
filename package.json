@@ -1,0 +1,25 @@
+{
+  "name": "ecompus",
+  "version": "1.0.0",
+  "description": "basic ecommerce project",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "website",
+    "marketplace"
+  ],
+  "author": "fahim",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
