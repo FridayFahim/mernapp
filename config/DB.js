@@ -2,7 +2,7 @@ var mongoose = require('mongoose');
 
 var DB = async function(){
    try {
-    await mongoose.connect('mongodb://localhost:27017/profileBuilder',{
+    await mongoose.connect('mongodb://localhost:27017/profilebuilder',{
         useUnifiedTopology: true,
         useNewUrlParser: true
     })
